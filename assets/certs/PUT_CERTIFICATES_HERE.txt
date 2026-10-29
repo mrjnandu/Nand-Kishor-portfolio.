@@ -1,0 +1,1 @@
+﻿Place certificate JPG or PNG files in this folder. Reference them from data.py with a relative path such as assets/certs/certificate.jpg.

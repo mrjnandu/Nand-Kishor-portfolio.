@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: nandkishor-portfolio
+    runtime: static
+    buildCommand: python build.py
+    staticPublishPath: ./public
