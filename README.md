@@ -1,69 +1,57 @@
-# Nand Kishor Vishwakarma | 3D AI/ML Portfolio
+# Nand Kishor Vishwakarma — Data Science Portfolio
 
-B.Tech CSE (AI), Babu Banarasi Das University, Lucknow.
-Yeh project Python se ek static portfolio website (`public/index.html`) banata hai. Koi package install nahi karna.
+Welcome to my portfolio! I am an aspiring Data Scientist passionate about transforming data into meaningful insights and building machine learning solutions to solve real-world problems.
 
-## Folder structure
+This portfolio showcases my projects, technical skills, and continuous learning journey in Data Science, Machine Learning, and Data Analytics.
 
-```
-portfolio-project/
-  data.py                      <- SIRF ISE EDIT KARO (naam, skills, projects, links)
-  build.py                     <- website banata hai (python build.py)
-  templates/index.template.html<- design + 3D animation (edit zaroori nahi)
-  assets/                      <- photo.jpg aur resume.pdf yahan rakho
-  public/                      <- ready website (yahi deploy hoti hai)
-  vercel.json, render.yaml     <- deploy settings
-```
+## About Me
 
-## 1. Local pe chalana
+I am currently pursuing my undergraduate degree at Babu Banarasi Das University, Lucknow (2024–2028). I enjoy working with data, developing predictive models, creating visualizations, and exploring new technologies.
 
-1. Python 3.8+ install karo (python.org, "Add Python to PATH" tick karo). Check: `python --version`
-2. Terminal mein folder kholo: `cd portfolio-project`
-3. `data.py` kholo (VS Code/Notepad) aur `[brackets]` wali jagah apni real details bharo.
-4. Photo `assets/photo.jpg` aur resume `assets/resume.pdf` naam se rakho.
-5. Run: `python build.py --serve`
-6. Browser mein kholo: http://localhost:8000 (band karne ke liye Ctrl+C)
+My goal is to apply data science and machine learning techniques to solve practical problems and build impactful projects.
 
-Badlav ke baad dobara `python build.py` chalao aur browser mein `Ctrl + Shift + R` karo.
+## Technical Skills
 
-## 2. GitHub pe upload
+- **Programming:** Python
+- **Data Analysis:** NumPy, Pandas
+- **Data Visualization:** Matplotlib, Seaborn
+- **Machine Learning:** Scikit-learn
+- **Databases:** SQL, MongoDB
+- **Tools:** Jupyter Notebook, Git, GitHub
+- **Deployment:** Streamlit, Render
 
-Option A (bina git ke): github.com par New repository banao (Public), phir Add file > Upload files, poora folder ka content drag-drop karo (`public/` folder bhi), Commit.
+*Note: Update this list according to the technologies actually used in your projects.*
 
-Option B (git se):
-```
-git init
-git add .
-git commit -m "My portfolio"
-git branch -M main
-git remote add origin https://github.com/YOURUSERNAME/portfolio.git
-git push -u origin main
-```
-Har update ke baad `python build.py`, phir `git add .`, `git commit -m "update"`, `git push`.
+## Projects
 
-## 3. Vercel pe deploy
+This portfolio highlights my learning journey and practical work in data science and machine learning.
 
-1. vercel.com par GitHub se login karo.
-2. Add New > Project > apna repo Import karo.
-3. Framework Preset: **Other**. Build Command khali. Output Directory: **public** (vercel.json mein pehle se hai).
-4. Deploy dabao. 1 minute mein `yourproject.vercel.app` link milega.
-5. Aage se `git push` karoge to site khud update hogi.
+Projects may include:
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Machine Learning Models
+- Predictive Analytics
+- End-to-End Data Science Applications
 
-## 4. Render pe deploy
+Visit the portfolio website to explore the available projects and their details.
 
-1. render.com par GitHub se login karo.
-2. New > **Static Site** > apna repo select karo.
-3. Build Command: `python build.py`. Publish Directory: **public**.
-4. Create Static Site. Kuch minute mein `yourproject.onrender.com` link milega.
-(`render.yaml` se Blueprint option bhi use kar sakte ho.)
+## Education
 
-## 5. GitHub Pages (bonus)
+**Babu Banarasi Das University, Lucknow**  
+Undergraduate Student | 2024–2028
 
-Settings > Pages > Deploy from a branch > `main` > folder `/ (root)`. Site root pe `index.html` chahiye, to `public/index.html` ko repo ke root mein bhi copy kar do, ya Vercel/Render use karo.
+## Career Objective
 
-## Common errors
+To build a career in Data Science and Machine Learning by applying analytical thinking, programming skills, and data-driven approaches to real-world challenges.
 
-- `SyntaxError` in data.py: quote ya comma chhoot gaya, error ki line dekho.
-- Photo nahi dikh rahi: file ka naam `assets/photo.jpg` hona chahiye, aur `python build.py` dobara chalao.
-- Site online purani dikh rahi hai: `public/` folder commit/push hua ya nahi check karo.
-- Instagram/LinkedIn link: `data.py` ke `links` mein `yourusername` badlo.
+## Connect With Me
+
+- **GitHub:** [mrjnandu](https://github.com/mrjnandu)
+- **LinkedIn:** https://www.linkedin.com/in/mrjnandu/
+-
+
+---
+
+Thank you for visiting my portfolio!
+
+I am continuously learning, building projects, and improving my skills in Data Science and Machine Learning.
